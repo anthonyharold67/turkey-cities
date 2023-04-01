@@ -1,4 +1,4 @@
-import { cities } from "./cities"
+import cities  from "./cities"
 
 const useCities = ()=>{
     return {cities}

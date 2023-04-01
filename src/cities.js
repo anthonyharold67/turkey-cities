@@ -1,7 +1,8 @@
-const TurkeyCities= {
-  Adana: {
-    plate: 1,
-    town: [
+const cities= [
+ {
+    "name":"Adana",
+    "plate": 1,
+    "town": [
       "Aladağ",
       "Ceyhan",
       "Çukurova",
@@ -19,9 +20,10 @@ const TurkeyCities= {
       "Yüreğir",
     ],
   },
-  Adıyaman: {
-    plate: 2,
-    town: [
+ {
+    "name":"Adıyaman",
+    "plate": 2,
+    "town": [
       "Besni",
       "Çelikhan",
       "Gerger",
@@ -33,9 +35,10 @@ const TurkeyCities= {
       "Tut",
     ],
   },
-  Afyonkarahisar: {
-    plate: 3,
-    town: [
+ {
+    "name":"Afyonkarahisar",
+    "plate": 3,
+    "town": [
       "Başmakçı",
       "Bayat",
       "Bolvadin",
@@ -56,9 +59,10 @@ const TurkeyCities= {
       "Şuhut",
     ],
   },
-  Ağrı: {
-    plate: 4,
-    town: [
+ {
+    "name":"Ağrı",
+    "plate": 4,
+    "town": [
       "Diyadin",
       "Doğubayazıt",
       "Eleşkirt",
@@ -69,9 +73,10 @@ const TurkeyCities= {
       "Tutak",
     ],
   },
-  Amasya: {
-    plate: 5,
-    town: [
+ {
+    "name":"Amasya",
+    "plate": 5,
+    "town": [
       "Göynücek",
       "Gümüşhacıköy",
       "Hamamözü",
@@ -81,9 +86,10 @@ const TurkeyCities= {
       "Taşova",
     ],
   },
-  Ankara: {
-    plate: 6,
-    town: [
+ {
+    "name":"Ankara",
+    "plate": 6,
+    "town": [
       "Altındağ",
       "Ayaş",
       "Bala",
@@ -111,9 +117,10 @@ const TurkeyCities= {
       "Pursaklar",
     ],
   },
-  Antalya: {
-    plate: 7,
-    town: [
+ {
+    "name":"Antalya",
+    "plate": 7,
+    "town": [
       "Akseki",
       "Alanya",
       "Elmalı",
@@ -135,9 +142,10 @@ const TurkeyCities= {
       "Muratpaşa",
     ],
   },
-  Artvin: {
-    plate: 8,
-    town: [
+  {
+    "name":"Artvin",
+    "plate": 8,
+    "town": [
       "Ardanuç",
       "Arhavi",
       "Merkez",
@@ -148,9 +156,10 @@ const TurkeyCities= {
       "Murgul",
     ],
   },
-  Aydın: {
-    plate: 9,
-    town: [
+ {
+    "name":"Aydın",
+    "plate": 9,
+    "town": [
       "Merkez",
       "Bozdoğan",
       "Efeler",
@@ -171,9 +180,10 @@ const TurkeyCities= {
       "Didim",
     ],
   },
-  Balıkesir: {
-    plate: 10,
-    town: [
+  {
+    "name":"Balıkesir",
+    "plate": 10,
+    "town": [
       "Altıeylül",
       "Ayvalık",
       "Merkez",
@@ -197,9 +207,10 @@ const TurkeyCities= {
       "Marmara",
     ],
   },
-  Bilecik: {
-    plate: 11,
-    town: [
+  {
+    "name":"Bilecik",
+    "plate": 11,
+    "town": [
       "Merkez",
       "Bozüyük",
       "Gölpazarı",
@@ -210,9 +221,10 @@ const TurkeyCities= {
       "İnhisar",
     ],
   },
-  Bingöl: {
-    plate: 12,
-    town: [
+  {
+    "name":"Bingöl",
+    "plate": 12,
+    "town": [
       "Merkez",
       "Genç",
       "Karlıova",
@@ -223,9 +235,10 @@ const TurkeyCities= {
       "Yedisu",
     ],
   },
-  Bitlis: {
-    plate: 13,
-    town: [
+  {
+    "name":"Bitlis",
+    "plate": 13,
+    "town": [
       "Adilcevaz",
       "Ahlat",
       "Merkez",
@@ -235,9 +248,10 @@ const TurkeyCities= {
       "Güroymak",
     ],
   },
-  Bolu: {
-    plate: 14,
-    town: [
+  {
+    "name":"Bolu",
+    "plate": 14,
+    "town": [
       "Merkez",
       "Gerede",
       "Göynük",
@@ -249,9 +263,10 @@ const TurkeyCities= {
       "Yeniçağa",
     ],
   },
-  Burdur: {
-    plate: 15,
-    town: [
+  {
+    "name":"Burdur",
+    "plate": 15,
+    "town": [
       "Ağlasun",
       "Bucak",
       "Merkez",
@@ -265,9 +280,10 @@ const TurkeyCities= {
       "Çeltikçi",
     ],
   },
-  Bursa: {
-    plate: 16,
-    town: [
+  {
+    "name":"Bursa",
+    "plate": 16,
+    "town": [
       "Gemlik",
       "İnegöl",
       "İznik",
@@ -287,9 +303,10 @@ const TurkeyCities= {
       "Kestel",
     ],
   },
-  Çanakkale: {
-    plate: 17,
-    town: [
+  {
+    "name":"Çanakkale",
+    "plate": 17,
+    "town": [
       "Ayvacık",
       "Bayramiç",
       "Biga",
@@ -304,9 +321,10 @@ const TurkeyCities= {
       "Yenice",
     ],
   },
-  Çankırı: {
-    plate: 18,
-    town: [
+  {
+    "name":"Çankırı",
+    "plate": 18,
+    "town": [
       "Merkez",
       "Çerkeş",
       "Eldivan",
@@ -321,9 +339,10 @@ const TurkeyCities= {
       "Korgun",
     ],
   },
-  Çorum: {
-    plate: 19,
-    town: [
+  {
+    "name":"Çorum",
+    "plate": 19,
+    "town": [
       "Alaca",
       "Bayat",
       "Merkez",
@@ -340,9 +359,10 @@ const TurkeyCities= {
       "Oğuzlar",
     ],
   },
-  Denizli: {
-    plate: 20,
-    town: [
+  {
+    "name":"Denizli",
+    "plate": 20,
+    "town": [
       "Acıpayam",
       "Buldan",
       "Çal",
@@ -365,9 +385,10 @@ const TurkeyCities= {
       "Bozkurt",
     ],
   },
-  Diyarbakır: {
-    plate: 21,
-    town: [
+  {
+    "name":"Diyarbakır",
+    "plate": 21,
+    "town": [
       "Kocaköy",
       "Çermik",
       "Çınar",
@@ -387,9 +408,10 @@ const TurkeyCities= {
       "Bismil",
     ],
   },
-  Edirne: {
-    plate: 22,
-    town: [
+  {
+    "name":"Edirne",
+    "plate": 22,
+    "town": [
       "Merkez",
       "Enez",
       "Havsa",
@@ -401,9 +423,10 @@ const TurkeyCities= {
       "Süloğlu",
     ],
   },
-  Elazığ: {
-    plate: 23,
-    town: [
+  {
+    "name":"Elazığ",
+    "plate": 23,
+    "town": [
       "Ağın",
       "Baskil",
       "Merkez",
@@ -417,9 +440,10 @@ const TurkeyCities= {
       "Alacakaya",
     ],
   },
-  Erzincan: {
-    plate: 24,
-    town: [
+  {
+    "name":"Erzincan",
+    "plate": 24,
+    "town": [
       "Çayırlı",
       "Merkez",
       "İliç",
@@ -431,9 +455,10 @@ const TurkeyCities= {
       "Otlukbeli",
     ],
   },
-  Erzurum: {
-    plate: 25,
-    town: [
+  {
+    "name":"Erzurum",
+    "plate": 25,
+    "town": [
       "Aşkale",
       "Çat",
       "Hınıs",
@@ -456,9 +481,10 @@ const TurkeyCities= {
       "Aziziye",
     ],
   },
-  Eskişehir: {
-    plate: 26,
-    town: [
+  {
+    "name":"Eskişehir",
+    "plate": 26,
+    "town": [
       "Çifteler",
       "Mahmudiye",
       "Mihalıççık",
@@ -475,9 +501,10 @@ const TurkeyCities= {
       "Tepebaşı",
     ],
   },
-  Gaziantep: {
-    plate: 27,
-    town: [
+  {
+    "name":"Gaziantep",
+    "plate": 27,
+    "town": [
       "Araban",
       "İslahiye",
       "Nizip",
@@ -489,9 +516,10 @@ const TurkeyCities= {
       "Nurdağı",
     ],
   },
-  Giresun: {
-    plate: 28,
-    town: [
+  {
+    "name":"Giresun",
+    "plate": 28,
+    "town": [
       "Alucra",
       "Bulancak",
       "Dereli",
@@ -510,17 +538,20 @@ const TurkeyCities= {
       "Güce",
     ],
   },
-  Gümüşhane: {
-    plate: 29,
-    town: ["Merkez", "Kelkit", "Şiran", "Torul", "Köse", "Kürtün"],
+  {
+    "name":"Gümüşhane",
+    "plate": 29,
+    "town": ["Merkez", "Kelkit", "Şiran", "Torul", "Köse", "Kürtün"],
   },
-  Hakkari: {
-    plate: 30,
-    town: ["Çukurca", "Merkez", "Şemdinli", "Yüksekova"],
+  {
+    "name":"Hakkari",
+    "plate": 30,
+    "town": ["Çukurca", "Merkez", "Şemdinli", "Yüksekova"],
   },
-  Hatay: {
-    plate: 31,
-    town: [
+  {
+    "name":"Hatay",
+    "plate": 31,
+    "town": [
       "Altınözü",
       "Arsuz",
       "Defne",
@@ -538,9 +569,10 @@ const TurkeyCities= {
       "Kumlu",
     ],
   },
-  Isparta: {
-    plate: 32,
-    town: [
+  {
+    "name":"Isparta",
+    "plate": 32,
+    "town": [
       "Atabey",
       "Eğirdir",
       "Gelendost",
@@ -556,9 +588,10 @@ const TurkeyCities= {
       "Yenişarbademli",
     ],
   },
-  Mersin: {
-    plate: 33,
-    town: [
+  {
+    "name":"Mersin",
+    "plate": 33,
+    "town": [
       "Anamur",
       "Erdemli",
       "Gülnar",
@@ -574,9 +607,10 @@ const TurkeyCities= {
       "Yenişehir",
     ],
   },
-  İstanbul: {
-    plate: 34,
-    town: [
+  {
+    "name":"İstanbul",
+    "plate": 34,
+    "town": [
       "Adalar",
       "Bakırköy",
       "Beşiktaş",
@@ -618,9 +652,10 @@ const TurkeyCities= {
       "Sultangazi",
     ],
   },
-  İzmir: {
-    plate: 35,
-    town: [
+  {
+    "name":"İzmir",
+    "plate": 35,
+    "town": [
       "Aliağa",
       "Bayındır",
       "Bergama",
@@ -653,9 +688,10 @@ const TurkeyCities= {
       "Karabağlar",
     ],
   },
-  Kars: {
-    plate: 36,
-    town: [
+  {
+    "name":"Kars",
+    "plate": 36,
+    "town": [
       "Arpaçay",
       "Digor",
       "Kağızman",
@@ -666,9 +702,10 @@ const TurkeyCities= {
       "Akyaka",
     ],
   },
-  Kastamonu: {
-    plate: 37,
-    town: [
+  {
+    "name":"Kastamonu",
+    "plate": 37,
+    "town": [
       "Abana",
       "Araç",
       "Azdavay",
@@ -691,9 +728,10 @@ const TurkeyCities= {
       "Seydiler",
     ],
   },
-  Kayseri: {
-    plate: 38,
-    town: [
+  {
+    "name":"Kayseri",
+    "plate": 38,
+    "town": [
       "Bünyan",
       "Develi",
       "Felahiye",
@@ -712,9 +750,10 @@ const TurkeyCities= {
       "Özvatan",
     ],
   },
-  Kırklareli: {
-    plate: 39,
-    town: [
+  {
+    "name":"Kırklareli",
+    "plate": 39,
+    "town": [
       "Babaeski",
       "Demirköy",
       "Merkez",
@@ -725,9 +764,10 @@ const TurkeyCities= {
       "Vize",
     ],
   },
-  Kırşehir: {
-    plate: 40,
-    town: [
+  {
+    "name":"Kırşehir",
+    "plate": 40,
+    "town": [
       "Çiçekdağı",
       "Kaman",
       "Merkez",
@@ -737,9 +777,10 @@ const TurkeyCities= {
       "Boztepe",
     ],
   },
-  Kocaeli: {
-    plate: 41,
-    town: [
+  {
+    "name":"Kocaeli",
+    "plate": 41,
+    "town": [
       "Gebze",
       "Gölcük",
       "Kandıra",
@@ -754,9 +795,10 @@ const TurkeyCities= {
       "Kartepe",
     ],
   },
-  Konya: {
-    plate: 42,
-    town: [
+  {
+    "name":"Konya",
+    "plate": 42,
+    "town": [
       "Akşehir",
       "Beyşehir",
       "Bozkır",
@@ -790,9 +832,10 @@ const TurkeyCities= {
       "Yalıhüyük",
     ],
   },
-  Kütahya: {
-    plate: 43,
-    town: [
+  {
+    "name":"Kütahya",
+    "plate": 43,
+    "town": [
       "Altıntaş",
       "Domaniç",
       "Emet",
@@ -808,9 +851,10 @@ const TurkeyCities= {
       "Pazarlar",
     ],
   },
-  Malatya: {
-    plate: 44,
-    town: [
+  {
+    "name":"Malatya",
+    "plate": 44,
+    "town": [
       "Akçadağ",
       "Arapgir",
       "Arguvan",
@@ -827,9 +871,10 @@ const TurkeyCities= {
       "Yazıhan",
     ],
   },
-  Manisa: {
-    plate: 45,
-    town: [
+  {
+    "name":"Manisa",
+    "plate": 45,
+    "town": [
       "Akhisar",
       "Alaşehir",
       "Demirci",
@@ -850,9 +895,10 @@ const TurkeyCities= {
       "Köprübaşı",
     ],
   },
-  Kahramanmaraş: {
-    plate: 46,
-    town: [
+  {
+    "name":"Kahramanmaraş",
+    "plate": 46,
+    "town": [
       "Afşin",
       "Andırın",
       "Dulkadiroğlu",
@@ -867,9 +913,10 @@ const TurkeyCities= {
       "Nurhak",
     ],
   },
-  Mardin: {
-    plate: 47,
-    town: [
+  {
+    "name":"Mardin",
+    "plate": 47,
+    "town": [
       "Derik",
       "Kızıltepe",
       "Artuklu",
@@ -883,9 +930,10 @@ const TurkeyCities= {
       "Yeşilli",
     ],
   },
-  Muğla: {
-    plate: 48,
-    town: [
+  {
+    "name":"Muğla",
+    "plate": 48,
+    "town": [
       "Bodrum",
       "Datça",
       "Fethiye",
@@ -901,13 +949,15 @@ const TurkeyCities= {
       "Kavaklıdere",
     ],
   },
-  Muş: {
-    plate: 49,
-    town: ["Bulanık", "Malazgirt", "Merkez", "Varto", "Hasköy", "Korkut"],
+  {
+    "name":"Muş",
+    "plate": 49,
+    "town": ["Bulanık", "Malazgirt", "Merkez", "Varto", "Hasköy", "Korkut"],
   },
-  Nevşehir: {
-    plate: 50,
-    town: [
+  {
+    "name":"Nevşehir",
+    "plate": 50,
+    "town": [
       "Avanos",
       "Derinkuyu",
       "Gülşehir",
@@ -918,9 +968,10 @@ const TurkeyCities= {
       "Acıgöl",
     ],
   },
-  Niğde: {
-    plate: 51,
-    town: [
+  {
+    "name":"Niğde",
+    "plate": 51,
+    "town": [
       "Bor",
       "Çamardı",
       "Merkez",
@@ -929,9 +980,10 @@ const TurkeyCities= {
       "Çiftlik",
     ],
   },
-  Ordu: {
-    plate: 52,
-    town: [
+  {
+    "name":"Ordu",
+    "plate": 52,
+    "town": [
       "Akkuş",
       "Altınordu",
       "Aybastı",
@@ -953,9 +1005,10 @@ const TurkeyCities= {
       "Kabataş",
     ],
   },
-  Rize: {
-    plate: 53,
-    town: [
+  {
+    "name":"Rize",
+    "plate": 53,
+    "town": [
       "Ardeşen",
       "Çamlıhemşin",
       "Çayeli",
@@ -970,9 +1023,10 @@ const TurkeyCities= {
       "İyidere",
     ],
   },
-  Sakarya: {
-    plate: 54,
-    town: [
+  {
+    "name":"Sakarya",
+    "plate": 54,
+    "town": [
       "Akyazı",
       "Geyve",
       "Hendek",
@@ -991,9 +1045,10 @@ const TurkeyCities= {
       "Serdivan",
     ],
   },
-  Samsun: {
-    plate: 55,
-    town: [
+  {
+    "name":"Samsun",
+    "plate": 55,
+    "town": [
       "Alaçam",
       "Bafra",
       "Çarşamba",
@@ -1013,9 +1068,10 @@ const TurkeyCities= {
       "İlkadım",
     ],
   },
-  Siirt: {
-    plate: 56,
-    town: [
+  {
+    "name":"Siirt",
+    "plate": 56,
+    "town": [
       "Baykan",
       "Eruh",
       "Kurtalan",
@@ -1025,9 +1081,10 @@ const TurkeyCities= {
       "Tillo",
     ],
   },
-  Sinop: {
-    plate: 57,
-    town: [
+  {
+    "name":"Sinop",
+    "plate": 57,
+    "town": [
       "Ayancık",
       "Boyabat",
       "Durağan",
@@ -1039,9 +1096,10 @@ const TurkeyCities= {
       "Saraydüzü",
     ],
   },
-  Sivas: {
-    plate: 58,
-    town: [
+  {
+    "name":"Sivas",
+    "plate": 58,
+    "town": [
       "Divriği",
       "Gemerek",
       "Gürün",
@@ -1061,9 +1119,10 @@ const TurkeyCities= {
       "Ulaş",
     ],
   },
-  Tekirdağ: {
-    plate: 59,
-    town: [
+  {
+    "name":"Tekirdağ",
+    "plate": 59,
+    "town": [
       "Çerkezköy",
       "Çorlu",
       "Ergene",
@@ -1077,9 +1136,10 @@ const TurkeyCities= {
       "Marmaraereğlisi",
     ],
   },
-  Tokat: {
-    plate: 60,
-    town: [
+  {
+    "name":"Tokat",
+    "plate": 60,
+    "town": [
       "Almus",
       "Artova",
       "Erbaa",
@@ -1094,9 +1154,10 @@ const TurkeyCities= {
       "Sulusaray",
     ],
   },
-  Trabzon: {
-    plate: 61,
-    town: [
+  {
+    "name":"Trabzon",
+    "plate": 61,
+    "town": [
       "Akçaabat",
       "Araklı",
       "Arsin",
@@ -1117,9 +1178,10 @@ const TurkeyCities= {
       "Köprübaşı",
     ],
   },
-  Tunceli: {
-    plate: 62,
-    town: [
+  {
+    "name":"Tunceli",
+    "plate": 62,
+    "town": [
       "Çemişgezek",
       "Hozat",
       "Mazgirt",
@@ -1130,9 +1192,10 @@ const TurkeyCities= {
       "Merkez",
     ],
   },
-  Şanlıurfa: {
-    plate: 63,
-    town: [
+  {
+    "name":"Şanlıurfa",
+    "plate": 63,
+    "town": [
       "Akçakale",
       "Birecik",
       "Bozova",
@@ -1148,13 +1211,15 @@ const TurkeyCities= {
       "Harran",
     ],
   },
-  Uşak: {
-    plate: 64,
-    town: ["Banaz", "Eşme", "Karahallı", "Sivaslı", "Ulubey", "Merkez"],
+  {
+    "name":"Uşak",
+    "plate": 64,
+    "town": ["Banaz", "Eşme", "Karahallı", "Sivaslı", "Ulubey", "Merkez"],
   },
-  Van: {
-    plate: 65,
-    town: [
+  {
+    "name":"Van",
+    "plate": 65,
+    "town": [
       "Başkale",
       "Çatak",
       "Erciş",
@@ -1170,9 +1235,10 @@ const TurkeyCities= {
       "Saray",
     ],
   },
-  Yozgat: {
-    plate: 66,
-    town: [
+  {
+    "name":"Yozgat",
+    "plate": 66,
+    "town": [
       "Akdağmadeni",
       "Boğazlıyan",
       "Çayıralan",
@@ -1189,13 +1255,15 @@ const TurkeyCities= {
       "Yenifakılı",
     ],
   },
-  Zonguldak: {
-    plate: 67,
-    town: ["Çaycuma", "Devrek", "Ereğli", "Merkez", "Alaplı", "Gökçebey"],
+  {
+    "name":"Zonguldak",
+    "plate": 67,
+    "town": ["Çaycuma", "Devrek", "Ereğli", "Merkez", "Alaplı", "Gökçebey"],
   },
-  Aksaray: {
-    plate: 68,
-    town: [
+  {
+    "name":"Aksaray",
+    "plate": 68,
+    "town": [
       "Ağaçören",
       "Eskil",
       "Gülağaç",
@@ -1205,10 +1273,11 @@ const TurkeyCities= {
       "Sarıyahşi",
     ],
   },
-  Bayburt: { plate: 69, town: ["Merkez", "Aydıntepe", "Demirözü"] },
-  Karaman: {
-    plate: 70,
-    town: [
+  { "name":"Bayburt","plate": 69, "town": ["Merkez", "Aydıntepe", "Demirözü"] },
+  {
+    "name":"Karaman",
+    "plate": 70,
+    "town": [
       "Ermenek",
       "Merkez",
       "Ayrancı",
@@ -1217,9 +1286,10 @@ const TurkeyCities= {
       "Sarıveliler",
     ],
   },
-  Kırıkkale: {
-    plate: 71,
-    town: [
+  {
+    "name":"Kırıkkale",
+    "plate": 71,
+    "town": [
       "Delice",
       "Keskin",
       "Merkez",
@@ -1231,13 +1301,15 @@ const TurkeyCities= {
       "Yahşihan",
     ],
   },
-  Batman: {
-    plate: 72,
-    town: ["Merkez", "Beşiri", "Gercüş", "Kozluk", "Sason", "Hasankeyf"],
+ {
+    "name":"Batman",
+    "plate": 72,
+    "town": ["Merkez", "Beşiri", "Gercüş", "Kozluk", "Sason", "Hasankeyf"],
   },
-  Şırnak: {
-    plate: 73,
-    town: [
+ {
+    "name":"Şırnak",
+    "plate": 73,
+    "town": [
       "Beytüşşebap",
       "Cizre",
       "İdil",
@@ -1247,21 +1319,25 @@ const TurkeyCities= {
       "Güçlükonak",
     ],
   },
-  Bartın: {
-    plate: 74,
-    town: ["Merkez", "Kurucaşile", "Ulus", "Amasra"],
+ {
+    "name": "Bartın",
+    "plate": 74,
+    "town": ["Merkez", "Kurucaşile", "Ulus", "Amasra"],
   },
-  Ardahan: {
-    plate: 75,
-    town: ["Merkez", "Çıldır", "Göle", "Hanak", "Posof", "Damal"],
+ {
+    "name":"Ardahan",
+    "plate": 75,
+    "town": ["Merkez", "Çıldır", "Göle", "Hanak", "Posof", "Damal"],
   },
-  Iğdır: {
-    plate: 76,
-    town: ["Aralık", "Merkez", "Tuzluca", "Karakoyunlu"],
+ {
+    "name":"Iğdır",
+    "plate": 76,
+    "town": ["Aralık", "Merkez", "Tuzluca", "Karakoyunlu"],
   },
-  Yalova: {
-    plate: 77,
-    town: [
+ {
+    "name":"Yalova",
+    "plate": 77,
+    "town": [
       "Merkez",
       "Altınova",
       "Armutlu",
@@ -1270,9 +1346,10 @@ const TurkeyCities= {
       "Termal",
     ],
   },
-  Karabük: {
-    plate: 78,
-    town: [
+ {
+    "name":"Karabük",
+    "plate": 78,
+    "town": [
       "Eflani",
       "Eskipazar",
       "Merkez",
@@ -1281,13 +1358,15 @@ const TurkeyCities= {
       "Yenice",
     ],
   },
-  Kilis: {
-    plate: 79,
-    town: ["Merkez", "Elbeyli", "Musabeyli", "Polateli"],
+ {
+    "name":"Kilis",
+    "plate": 79,
+    "town": ["Merkez", "Elbeyli", "Musabeyli", "Polateli"],
   },
-  Osmaniye: {
-    plate: 80,
-    town: [
+ {
+    "name":"Osmaniye",
+    "plate": 80,
+    "town": [
       "Bahçe",
       "Kadirli",
       "Merkez",
@@ -1297,9 +1376,10 @@ const TurkeyCities= {
       "Toprakkale",
     ],
   },
-  Düzce: {
-    plate: 81,
-    town: [
+ {
+    "name":"Düzce",
+    "plate": 81,
+    "town": [
       "Akçakoca",
       "Merkez",
       "Yığılca",
@@ -1310,8 +1390,6 @@ const TurkeyCities= {
       "Kaynaşlı",
     ],
   },
-};
+]
 
-export const cities = Object.keys(CitiesJson);
-
-export default CitiesJson;
+export default cities;

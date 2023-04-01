@@ -1,14 +1,30 @@
 {
   "name": "turkey-cities",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "React hooks to list Turkey cities and towns",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonyharold67/turkey-cities"
+  },
+  "keywords": [
+    "turkey",
+    "city",
+    "district",
+    "hook",
+    "react",
+    "javascript"
+  ],
+  "author": "anthonyharold67",
+  "bugs": {
+    "url": "https://github.com/anthonyharold67/turkey-cities/issues"
+  },
+  "homepage": "https://github.com/anthonyharold67/turkey-cities#readme",
   "license": "ISC",
-   "devDependencies": {
+  "devDependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
