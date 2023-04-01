@@ -1,26 +1,26 @@
 ### Installing
 
 ```
-npm i turkey-cities
+npm i turkey-cities-towns
 ```
 
 or
 
 ```
-yarn add turkey-cities
+yarn add turkey-cities-towns
 ```
 
 ### Usage
 ```jsx
 import React from "react";
-import useCities from "turkey-cities";
+import useCities from "turkey-cities-towns";
 
-const App: React.FC = () => {
+const App = () => {
   const { cities } = useCities();
 
   return (
     <div className="App">
-      {cities.map(city=> <p key={city.plate}>{city.name}</>)}
+      {cities.map(city=> <p key={city.plate}>{city.name}</p>)}
     </div>
   );
 };
